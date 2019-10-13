@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".registerActivity">
 
     <EditText
@@ -61,5 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/et_password2"
         android:textAllCaps="false"
-        android:text="registration and login"/>
+        android:text="registration and login"
+        android:textSize="20dp"
+        android:background="#FAEBD7" />
 </RelativeLayout>
