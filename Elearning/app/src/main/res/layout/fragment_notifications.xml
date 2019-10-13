@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        android:id="@+id/btn_long1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="54dp"
+        android:background="#FFFFFF"
+        android:drawableStart="@drawable/pr"
+        android:drawableLeft="@drawable/pr"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAllCaps="false"
+        android:text="Course1"
+        android:textColor="#990099"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="jelly_bean" />
+
+    <Button
+        android:id="@+id/btn_long2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btn_long1"
+        android:drawableStart="@drawable/ai"
+        android:drawableLeft="@drawable/ai"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAllCaps="false"
+        android:text="Course2"
+        android:textColor="#ff6600"
+        android:textSize="40sp"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="jelly_bean"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:text="Selected:2"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
